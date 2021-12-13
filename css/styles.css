@@ -69,7 +69,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #ec9ec0;
+  --bs-body-color: #64A19D;
   --bs-body-bg: #fff;
 }
 
@@ -11668,7 +11668,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: #ec9ec0;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
