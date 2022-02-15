@@ -11682,7 +11682,7 @@ body {
   width: 3rem;
 }
 .contact-section .social {
-    @media (min-width: 1200px) {
+    @media (max-width: 600px) {
   a {
     display: flexbox;
   }
