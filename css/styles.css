@@ -11682,6 +11682,10 @@ body {
   width: 3rem;
 }
 .contact-section .social {
+    @media (min-width: 1200px) {
+  a {
+    display: flexbox;
+  }
   margin-top: 5rem;
 }
 .contact-section .social a {
