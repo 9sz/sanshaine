@@ -11683,8 +11683,11 @@ body {
 }
 .contact-section .social {
   margin-top: 5rem;
+  font-size: 30px;
 }
 .contact-section .social a {
+  font-size: 30px;
+  text-align: center;
   display: flexbox;
   text-align: center;
   height: 3rem;
