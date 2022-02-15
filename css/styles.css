@@ -11685,14 +11685,12 @@ body {
   margin-top: 50px;
 }
 .contact-section .social a {
-  display: flexbox;
   text-align: center;
-  height: 3rem;
-  width: 3rem;
+  width: 2rem;
   background: #f9cbe2;
   border-radius: 100%;
-  line-height: 3rem;
   color: #000;
+  font-size: 20px;
 }
 .contact-section .social a:hover {
   color: #1c998b;
