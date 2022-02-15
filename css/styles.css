@@ -11694,10 +11694,10 @@ body {
   color: color: #000;
 }
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: #1c998b;
 }
 .contact-section .social a:active {
-  color: #fff;
+  color: #1c998b;
 }
 
 .footer {
