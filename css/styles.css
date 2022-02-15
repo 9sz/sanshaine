@@ -11682,7 +11682,7 @@ body {
   width: 3rem;
 }
 .contact-section .social {
-  margin-top: 10px;
+  margin-top: 50px;
 }
 .contact-section .social a {
   display: flexbox;
@@ -11702,7 +11702,8 @@ body {
 }
 
 .footer {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 .footer-link {
