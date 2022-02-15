@@ -11708,3 +11708,18 @@ body {
 .footer-link {
   color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-section .social a {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: #f9cbe2;
+    border-radius: 100%;
+    line-height: 3rem;
+    color: #000;
+}
+}
