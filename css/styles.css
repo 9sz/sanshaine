@@ -11591,7 +11591,7 @@ body {
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
@@ -11611,7 +11611,7 @@ body {
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 }
 
