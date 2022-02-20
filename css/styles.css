@@ -4167,14 +4167,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
-.navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  text-decoration: none;
-  white-space: nowrap;
-}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -4556,12 +4549,6 @@ textarea.form-control-lg {
   overflow-y: visible;
 }
 
-.navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
-}
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
-}
 .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5)
 }
@@ -4591,12 +4578,6 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-dark .navbar-brand {
-  color: #fff;
-}
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
-}
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.55);
 }
@@ -11498,11 +11479,6 @@ body {
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
-#mainNav .navbar-brand {
-  color: #fff;
-  font-weight: 700;
-  padding: 0.9rem 0;
-}
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
   outline: none;
@@ -11520,10 +11496,6 @@ body {
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
-  #mainNav .navbar-brand {
-    padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
-  }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
@@ -11537,9 +11509,6 @@ body {
   }
   #mainNav.navbar-shrink {
     background-color: #000;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
     padding: 1.5rem 1.5rem 1.25rem;
