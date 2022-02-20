@@ -4130,7 +4130,6 @@ textarea.form-control-lg {
 .nav-justified > .nav-link,
 .nav-justified .nav-item {
   flex-basis: 0;
-  flex-grow: 1;
   text-align: center;
 }
 
