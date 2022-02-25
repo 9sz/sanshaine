@@ -4151,7 +4151,7 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -4165,7 +4165,7 @@ textarea.form-control-lg {
 .navbar > .container-xxl {
   display: flex;
   flex-wrap: inherit;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
 }
 
@@ -4191,6 +4191,7 @@ textarea.form-control-lg {
 
 .navbar-collapse {
   flex-basis: 100%;
+  flex-grow: 0;
   align-items: center;
 }
 
@@ -11529,7 +11530,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #090D18 100%), url("../assets/img/bg-masthead.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11628,6 +11629,8 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 .contact-section .card {
   border: 0;
@@ -11670,4 +11673,43 @@ body {
 
 .footer-link {
   color: #fff;
+}
+
+/* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+}
+
+.img__description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  padding-top: 520px;
+  padding-left: 40px;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 0.50;
 }
