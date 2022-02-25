@@ -11574,7 +11574,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: #000;
+  background: #090D18;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11582,6 +11582,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: #090D18;
 }
 .projects-section .featured-text {
   padding: 2rem;
